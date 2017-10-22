@@ -10,7 +10,7 @@
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -23,21 +23,23 @@
         <div class="container">
             <h1>Pomodoro Clock</h1>
             <div class="breakSection">
-                Break Length<br>
+                <span class="length">Break Length</span><br>
                 <button class="breakLess">-</button>
                 <span class="breakLength">5</span>
                 <button class="breakMore">+</button>
             </div>
             <div class="sessionSection">
-                Session Length<br>
+                <span class="length">Session Length</span><br>
                 <button class="sessionLess">-</button>
                 <span class="sessionLength">25</span>
                 <button class="sessionMore">+</button>
             </div>
-            <h3>Session</h3>
-            <div class="sessionCounter">25:00</div>
-            <button class="startSession">Start</button>
-            <button class="reset">Reset</button>
+            <div class="counterSection">
+                <h3>Session</h3>
+                <div class="sessionCounter">25:00</div>
+                <button class="startSession">Start</button>
+                <button class="reset">Reset</button>
+            </div>
         </div>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

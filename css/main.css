@@ -96,13 +96,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    color: #706321;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #ed0700;
+}
 
+h1 {
+    font-size: 3em;
+    margin-bottom: .2em;
+}
 
+h3 {
+    font-size: 2em;
+    margin: 0 auto;
+    padding-top: .25em;
+    letter-spacing: .1em;
+}
 
+button {
+    color: #fff;
+    font-weight: 600;
+    background-color: #699342;
+    border-radius: .2em;
+    outline-color: #9cdd63;
+    box-shadow: #9cdd63;
+    border-color: #9cdd63;
+}
+.container {
+    width: 67%;
+    max-width: 600px;;
+    background-color: #EEE19F;
+    overflow: auto;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+}
 
+.length {
+    line-height: 150%;
+}
 
+.breakSection {
+    font-weight: 600;
+    letter-spacing: .1em;
+    line-height: 1em;
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.sessionSection {
+    font-weight: 600;
+    letter-spacing: .1em;
+    line-height: 1em;
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.counterSection {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.sessionCounter {
+    font-size: 3em;
+    font-weight: 700;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    line-height: 3.5em;
+    padding: 0;
+    margin: .25em auto;
+    background-color: #9cdd63;
+}
+
+.startSession, .reset {
+    letter-spacing: .2em;
+    padding: .3em;
+}
+
+.startSession {
+    margin-right: .25em;
+}
 
 
 
